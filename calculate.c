@@ -33,14 +33,11 @@ int main()
     return 0;
 }
 
-int sub(int a, int b)
+int div(int a, int b)
 {
-    return a-b;
+    return a/b;
 }
 
 
-int add(int a, int b)
-{
-    return a+b;
-}
+
 

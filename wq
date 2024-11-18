@@ -1,0 +1,22 @@
+[1mdiff --git a/calculate.c b/calculate.c[m
+[1mindex 9e58a07..015a055 100644[m
+[1m--- a/calculate.c[m
+[1m+++ b/calculate.c[m
+[36m@@ -33,14 +33,11 @@[m [mint main()[m
+     return 0;[m
+ }[m
+ [m
+[31m-int sub(int a, int b)[m
+[32m+[m[32mint div(int a, int b)[m
+ {[m
+[31m-    return a-b;[m
+[32m+[m[32m    return a/b;[m
+ }[m
+ [m
+ [m
+[31m-int add(int a, int b)[m
+[31m-{[m
+[31m-    return a+b;[m
+[31m-}[m
+[41m+[m
+ [m
